@@ -20,9 +20,13 @@ void printTT(point p){
 }
 
 int main() {
-    point p(2, 5);
+    point p(3, 4);
     cout << &p << endl;
     printTC(p);
     printTT(p);
-    return 0;
 }
+/*
+0x61fe18
+0x61fe18
+0x61fdf0
+*/
