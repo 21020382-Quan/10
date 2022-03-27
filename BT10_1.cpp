@@ -16,9 +16,9 @@ struct Point{
 };
 
 int main(){
-    Point x(0,0);
-    cin >> x.x >> x.y;
-    x.print();
+    Point p(0,0);
+    cin >> p.x >> p.y;
+    .print();
     return 0;
 }
 
