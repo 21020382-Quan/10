@@ -11,18 +11,18 @@ struct point {
 
 };
 
-void print1(point& p){
+void printTC(point& p){
         cout << &p << endl;
 }
 
-void print2(point p){
+void printTT(point p){
     cout << &p << endl;
 }
 
 int main() {
     point p(2, 5);
     cout << &p << endl;
-    print1(p);
-    print2(p);
+    printTC(p);
+    printTT(p);
     return 0;
 }
